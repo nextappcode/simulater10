@@ -1,0 +1,121 @@
+body{
+    margin: 0;
+    padding: 0;
+    background-color: #170153;
+}
+/*IMAGEN*/
+
+img{
+    width: 1152px;
+    height: 864px;
+    margin-top: 0px;
+    margin-left: 160px;
+    margin-right: 150px;
+}
+/*BOTON ATRAS*/
+.b{
+    margin-top: 135px;
+    margin-left: 384px;
+    position: absolute;
+    color: transparent;
+}
+/*BOTON CERRAR*/
+.x{
+    margin-top: 121px;
+    margin-left: 1040.5px;
+    position: absolute;
+    color: #ffffff;
+}
+.serrar{
+    width: 45px;
+    height: 21PX;
+    border-radius: 3px 3px;
+    background-color: #DF7E6E;
+    color: #e3e4e4;
+    border: 6px 3px;
+}
+/*INPUT*/
+
+.ediciones{
+    margin-top: 240px;
+    margin-left: 429px;
+    position: absolute;
+    background-color: transparent;
+    width: 591px;
+    height: 189px;
+    line-height: 93em;
+    padding-top: 27px;
+
+}
+.edit{
+    color: rgba(255, 255, 255, 0.11);
+    padding-top: 5px;
+    padding-inline: 10px;
+    padding-block: 3px;
+}
+
+.edit1{
+    color: rgba(255, 255, 255, 0.11);
+    padding-top: 5px;
+    padding-inline: 10px;
+    padding-block: 3px;
+}
+.edit2{
+    color: rgba(255, 255, 255, 0.11);
+    padding-top: 5px;
+    padding-inline: 10px;
+    padding-block: 3px;
+}
+.edit3{
+    color: rgba(255, 255, 255, 0.11);
+    padding-top: 5px;
+    padding-inline: 10px;
+    padding-block: 3px;
+}
+.edit4{
+    color: rgba(255, 255, 255, 0.11);
+    padding-top: 5px;
+    padding-inline: 10px;
+    padding-block: 3px;
+}
+.edit5{
+    color: rgba(255, 255, 255, 0.11);
+    padding-top: 5px;
+    padding-inline: 10px;
+    padding-block: 3px;
+}
+.edit6{
+    color: rgba(255, 255, 255, 0.11);
+    padding-top: 5px;
+    padding-inline: 10px;
+    padding-block: 3px;
+}
+figcaption {
+    display:none; 
+    transition: all .5s;
+  }
+
+/*BOTON SIGUIENTE*/
+
+a{
+    margin-top: 613.6px;
+    margin-left: 981px;
+    position: absolute;
+}
+button{
+    width: 88px;
+    height: 25PX;
+
+}
+
+.enviar_datos{
+    margin-top: 445px;
+    margin-left: 941px;
+    position: absolute;
+
+}
+.resul_elec{
+    margin-top: 455px;
+    margin-left: 430px;
+    position: absolute;
+}

@@ -1,0 +1,50 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="css/13.css">
+    <head>
+        <script>
+        var cont=0
+        function cambia() {
+        cont++;
+        switch(cont%3+1) 
+         {
+         case 1:
+         document.getElementById("fotocambia").src="img/14.-Instalando-Windows-10-1.webp";
+         break;
+         case 2:
+         document.getElementById("fotocambia").src="img/14.1.-Instalando-Windows-10-3.webp";
+         break;
+         case 3:
+         document.getElementById("fotocambia").src="img/14.2.-Instalando-Windows-10-2.webp";
+         break;
+         }
+        }
+        function inicio() {
+        setInterval(cambia, 1800);
+        }
+        window.onload=inicio;
+
+        alert('EL proceso que acontinuacion veras podria tardar algunos minutos. Ponte comodo y espera la siguiente ventana.');
+        function redireccionar(){window.location="15.html";}
+        setTimeout ("redireccionar()", 5000);
+        </script>
+        </head> 
+        <title>Simulater10 v1.0</title>
+</head>
+<body>
+    
+    <div class="cuerpo">
+        <div class="cuerpo">
+            <a href="index.html" class="x"> <button class="serrar">X</button></a>
+        </div>
+        <div class="carrousel">
+            <img id="fotocambia" src="img/14.-Instalando-Windows-10-1.webp">
+        </div>
+        
+    </div>
+</body>
+</html>

@@ -1,0 +1,64 @@
+body{
+    margin: 0;
+    padding: 0;
+    background-color: #1B0056;
+}
+
+figcaption {
+    display:none; 
+    transition: all .5s;
+  }
+/*BOTON CERRAR*/
+.x{
+    margin-top: 121px;
+    margin-left: 1040px;
+    position: absolute;
+    color: #ffffff;
+}
+.serrar{
+    width: 46px;
+    height: 21PX;
+    border-radius: 3px 3px;
+    background-color: #DF7E6E;
+    color: #e3e4e4;
+    border: 6px 3px;
+}
+
+img{
+    width: 1152px;
+    height: 864px;
+    margin-top: 0px;
+    margin-left: 160px;
+    margin-right: 150px;
+
+}
+.si{
+    position: absolute;
+    margin-top: 752px;
+    margin-left: 1090px;
+}
+a{
+    background-color: #0078d7 ;
+    padding-left: 69px;
+    padding-right: 69px;
+    padding-top: 15px;
+    padding-bottom: 15px;
+    
+    text-decoration: none;
+    color: beige;
+}
+
+
+/*INPUT*/
+
+.input_license{
+    margin-top: 532px;
+    margin-left: 466px;
+    position: absolute;
+    color: transparent;
+    color: rgb(0, 0, 0);
+    width: 533px;
+    height: 45px;
+    font-size: 25px;
+
+}

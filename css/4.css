@@ -1,0 +1,49 @@
+body{
+    margin: 0;
+    padding: 0;
+    background-color: #1B0054;
+}
+/*BOTON SERRAR*/
+.x{
+    margin-top: 185px;
+    margin-left: 1036px;
+    position: absolute;
+    color: #ffffff;
+}
+.serrar{
+    width: 37px;
+    height: 21PX;
+    border-radius: 3px 3px;
+    background-color: #DF7E6E;
+    color: #e3e4e4;
+    border: 6px 3px;
+}
+/*BOTON SIGUIENTE*/
+.install{
+    margin-top: 419px;
+    margin-left: 659px;
+    position: absolute;
+    background-color: #A4BDDB;
+    color: rgb(255, 255, 255);
+}
+figcaption {
+    display:none; 
+    transition: all .5s;
+  }
+
+button{
+    width: 155px;
+    height: 44PX;
+    border-radius: 3px 3px;
+    background-color: #190056;
+    color: #fffefe;
+}
+
+img{
+    width: 1152px;
+    height: 864px;
+    margin-top: 0px;
+    margin-left: 160px;
+    margin-right: 150px;
+
+}

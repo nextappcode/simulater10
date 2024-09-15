@@ -1,0 +1,93 @@
+body{
+    margin: 0;
+    padding: 0;
+    background-color: #170153;
+}
+/*IMAGEN*/
+
+img{
+    width: 1152px;
+    height: 864px;
+    margin-top: 0px;
+    margin-left: 160px;
+    margin-right: 150px;
+
+}
+/*BOTON ATRAS*/
+.b{
+    margin-top: 139px;
+    margin-left: 385px;
+    position: absolute;
+    color: transparent;
+}
+/*BOTON CERRAR*/
+.x{
+    margin-top: 122px;
+    margin-left: 1040px;
+    position: absolute;
+    color: #ffffff;
+}
+.serrar{
+    width: 46px;
+    height: 21PX;
+    border-radius: 3px 3px;
+    background-color: #DF7E6E;
+    color: #e3e4e4;
+    border: 6px 3px;
+}
+/*INPUT*/
+
+.derechos{
+    width: 602px;
+    height: 293px;
+    margin-top: 240px;
+    margin-left: 431px;
+    position: absolute;
+    background-color: #ffffff;
+    font-size: 16px;
+    line-height: 19px;
+    text-align: justify;
+    padding-top: 7px;
+}
+
+.contacto{
+    top: 510px;
+    left: 825px;
+    right: 200px;
+    position: absolute;
+    font-size: 15px;
+    text-decoration: none;
+    size: 29px;
+}
+.contacto img{
+    width: 26px;
+    height: auto;
+}
+figcaption {
+    display:none; 
+    transition: all .5s;
+  }
+/*BOTON CHECKBOX*/
+
+.check{
+    margin-top: 565px;
+    margin-left: 425px;
+    margin-right: -400px;
+    position: absolute;
+    font-size: 15px;
+    text-decoration: none;
+    size: 29px;
+
+}
+
+/*BOTON SIGUIENTE*/
+
+button{
+    width: 80px;
+    height: 24PX;
+    margin-top: 615px;
+    margin-left: 988px;
+    position: absolute;
+
+}
+

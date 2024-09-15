@@ -1,0 +1,83 @@
+body{
+    margin: 0;
+    padding: 0;
+    background-color: #180252;
+}
+
+/*BOTON SERRAR*/
+.x{
+    margin-top: 185px;
+    margin-left: 1036px;
+    position: absolute;
+    color: #ffffff;
+}
+.serrar{
+    width: 37px;
+    height: 21PX;
+    border-radius: 3px 3px;
+    background-color: #DF7E6E;
+    color: #e3e4e4;
+    border: 6px 3px;
+}
+/* OPCIONES DE 3RA VENTANA*/
+.opciones1{
+    margin-top: 438px;
+    margin-left: 648px;
+    position: absolute;
+
+}
+.select1{
+    background-color: rgb(255, 255, 255);
+    width: 355px;
+    height: 27px;
+    font-size: 11px;
+}
+
+.opciones2{
+    margin-top: 478px;
+    margin-left: 648px;
+    position: absolute;
+
+}
+.select2{
+    background-color: rgb(255, 255, 255);
+    width: 355px;
+    height: 28px;
+    font-size: 11px;
+}
+
+.opciones3{
+    margin-top: 519px;
+    margin-left: 648px;
+    position: absolute;
+
+}
+.select3{
+    background-color: rgb(255, 255, 255);
+    width: 355px;
+    height: 27px;
+    font-size: 11px;
+}
+
+/*BOTON SIGUIENTE*/
+a{
+    margin-top: 653.5px;
+    margin-left: 987px;
+    position: absolute;
+
+}
+button{
+    width: 82px;
+    height: 24PX;
+
+}
+.carrousel{
+    text-align: start;
+}
+img{
+    width: 1152px;
+    height: 864px;
+    margin-top: 0px;
+    margin-left: 160px;
+    margin-right: 150px;
+}

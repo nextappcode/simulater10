@@ -1,0 +1,47 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="css/24.css">
+    <head>
+        <script>
+        var cont=0
+        function cambia() {
+        cont++;
+        switch(cont%3+1) 
+         {
+         case 1:
+         document.getElementById("fotocambia").src="img/25.jpg";
+         break;
+         case 2:
+         document.getElementById("fotocambia").src="img/26.jpg";
+         break;
+         case 3:
+         document.getElementById("fotocambia").src="img/27.jpg";
+         break;
+         }
+        }
+        function inicio() {
+        setInterval(cambia, 1700);
+        }
+        window.onload=inicio;
+
+        alert('Ya casi terminas. Solo unas ventanas más');
+        function redireccionar(){window.location="25.html";}
+        setTimeout ("redireccionar()", 6000);
+        </script>
+        </head> 
+        <title>Simulater10 v1.0</title>
+</head>
+<body>
+    
+    <div class="cuerpo">
+        <div class="carrousel">
+            <img id="fotocambia" src="img/24.jpg">
+        </div>
+        
+    </div>
+</body>
+</html>

@@ -1,0 +1,21 @@
+body{
+    margin: 0;
+    padding: 0;
+    background-color: #1f1f1f;
+}
+
+figcaption {
+    display:none; 
+    transition: all .5s;
+  }
+
+
+img{
+    width: 1152px;
+    height: 864px;
+    margin-top: 0px;
+    margin-left: 160px;
+    margin-right: 150px;
+     	
+    transition:all 0.5s ease;
+}

@@ -1,0 +1,83 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="css/7.css">
+    <title>Simulater10 v1.0</title>
+</head>
+
+<body>
+    <div class="cuerpo">
+        <a href="index.html" class="x"> <button class="serrar">X</button></a>
+        <a href="6.html" class="b">back</a>
+        <form id="edicionForm">
+            <select name="eleccion" multiple size="8" class="ediciones" id="selectEdiciones">
+                <option class="edit">Windows 10 Home</option>
+                <option class="edit1">Windows 10 Home N</option>
+                <option class="edit2">Windows 10 Home Single Languaje</option>
+                <option class="edit3">Windows 10 Education</option>
+                <option class="edit4">Windows 10 Education N</option>
+                <option class="edit5">Windows 10 Pro</option>
+                <option class="edit6">Windows 10 Pro N</option>
+            </select>
+
+            <div class="resul_elec" id="resultadoEleccion"></div>
+        </form>
+        <figcaption>Cerrar</figcaption>
+        <a href="8.html" id="siguienteLink"><button id="siguienteBtn" disabled>Siguiente</button></a> 
+
+        <div class="carrousel">
+            <img src="img/7.-Elegir-edición-de-Windows-10.jpg" id="foto">
+        </div>
+    </div>
+
+    <script>
+        document.addEventListener('DOMContentLoaded', function() {
+            var form = document.getElementById('edicionForm');
+            var select = document.getElementById('selectEdiciones');
+            var resultadoDiv = document.getElementById('resultadoEleccion');
+            var siguienteBtn = document.getElementById('siguienteBtn');
+            var siguienteLink = document.getElementById('siguienteLink');
+
+            function actualizarBotonSiguiente() {
+                if (select.selectedOptions.length > 0) {
+                    siguienteBtn.disabled = false;
+                    siguienteLink.classList.remove('disabled');
+                } else {
+                    siguienteBtn.disabled = true;
+                    siguienteLink.classList.add('disabled');
+                }
+            }
+
+            function mostrarSeleccion() {
+                var selectedOptions = Array.from(select.selectedOptions).map(option => option.text);
+                var resultado = selectedOptions.join(', ');
+                resultadoDiv.textContent = "Edición seleccionada: " + resultado;
+            }
+
+            select.addEventListener('change', function() {
+                actualizarBotonSiguiente();
+                mostrarSeleccion();
+            });
+
+            form.addEventListener('submit', function(e) {
+                e.preventDefault();
+                mostrarSeleccion();
+                actualizarBotonSiguiente();
+            });
+
+            siguienteLink.addEventListener('click', function(e) {
+                if (siguienteBtn.disabled) {
+                    e.preventDefault();
+                    alert('Por favor, selecciona al menos una edición de Windows antes de continuar.');
+                }
+            });
+
+            // Inicializar el estado del botón
+            actualizarBotonSiguiente();
+        });
+    </script>
+</body>
+</html>

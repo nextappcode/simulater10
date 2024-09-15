@@ -1,0 +1,75 @@
+body{
+    margin: 0;
+    padding: 0;
+    background-color: #1B0056;
+}
+/*BOTON ATRAS*/
+.b{
+    margin-top: 139px;
+    margin-left: 385px;
+    position: absolute;
+    color: transparent;
+}
+figcaption {
+    display:none; 
+    transition: all .5s;
+  }
+/*BOTON CERRAR*/
+.x{
+    margin-top: 122px;
+    margin-left: 1040px;
+    position: absolute;
+    color: #ffffff;
+}
+.serrar{
+    width: 46px;
+    height: 21PX;
+    border-radius: 3px 3px;
+    background-color: #DF7E6E;
+    color: #e3e4e4;
+    border: 6px 3px;
+}
+img{
+    width: 1152px;
+    height: 864px;
+    margin-top: 0px;
+    margin-left: 160px;
+    margin-right: 150px;
+
+}
+/*
+.nuevo{
+    margin-top: 483px;
+    margin-left: 893px;
+    position: absolute;
+    text-decoration: none;
+    color: #81a7e11c ;
+
+}
+*/
+/*BOTON APLICAR*/
+.aplicar{
+    margin-top: 512px;
+    margin-left: 905px;
+    position: absolute;
+    
+}
+.btn_aplicar{
+    width: 82px;
+    height: 23PX;
+
+}
+
+/*BOTON CANCELAR*/
+.cancelar{
+    margin-top: 512px;
+    margin-left: 1000px;
+    position: absolute;
+    
+}
+.btn_cancelar{
+    width: 69px;
+    height: 23PX;
+
+}
+

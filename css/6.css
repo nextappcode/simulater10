@@ -1,0 +1,86 @@
+body{
+    margin: 0;
+    padding: 0;
+    background-color: #180156;
+}
+/*IMAGEN*/
+
+img{
+    width: 1152px;
+    height: 864px;
+    margin-top: 0px;
+    margin-left: 160px;
+    margin-right: 150px;
+}
+/*BOTON ATRAS*/
+.b{
+    margin-top: 135px;
+    margin-left: 384px;
+    position: absolute;
+    color: transparent;
+}
+/*BOTON SERRAR*/
+.x{
+    margin-top: 121px;
+    margin-left: 1040.5px;
+    position: absolute;
+    color: #ffffff;
+}
+.serrar{
+    width: 45px;
+    height: 21PX;
+    border-radius: 3px 3px;
+    background-color: #DF7E6E;
+    color: #e3e4e4;
+    border: 6px 3px;
+}
+/*INPUT*/
+
+.input_license{
+    margin-top: 433px;
+    margin-left: 430px;
+    position: absolute;
+    color: transparent;
+    color: rgb(0, 0, 0);
+    width: 265px;
+    height: 21px;
+
+}
+figcaption {
+    display:none; 
+    transition: all .5s;
+  }
+
+/*BOTON SIGUIENTE*/
+
+a{
+    margin-top: 677px;
+    margin-left: 1023px;
+    position: absolute;
+}
+button{
+    width: 80px;
+    height: 24PX;
+
+}
+/*BOTON NO_CLAVE*/
+
+.no_clave{
+    margin-top: 618px;
+    margin-left: 740.5px;
+    position: absolute;
+    font-size: 16px;
+    color: #0f5c7c;
+    text-decoration: none;
+}
+/*BOTON DECLARACION DE PRIACIDAD*/
+
+.decl_priv{
+    margin-top: 618px;
+    margin-left: 413px;
+    position: absolute;
+    font-size: 16px;
+    color: #0f5c7c;
+
+}
+
